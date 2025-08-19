@@ -9,7 +9,7 @@ console.log(amigos[2]); // Muestra "Pedro"
 let amigos = [];
 
 // Función para adicionar amigos
-function adicionarAmigo() {
+function Añadir() {
   // 1. Capturar el valor del campo de entrada
   const input = document.getElementById("nombre");
   const nombre = input.value.trim(); // elimina espacios al inicio y final
@@ -65,3 +65,4 @@ function sortearAmigo() {
   const resultado = document.getElementById("resultado");
   resultado.innerHTML = "🎁 El amigo secreto es: <strong>" + amigoSorteado + "</strong>";
 }
+
