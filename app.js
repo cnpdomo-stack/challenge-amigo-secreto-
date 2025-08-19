@@ -30,3 +30,21 @@ function adicionarAmigo() {
   input.value = "";
   input.focus(); // regresa el cursor al campo de texto
 }
+
+function mostrarLista() {
+  // 1. Obtener el elemento de la lista
+  const lista = document.getElementById("listaAmigos");
+
+  // 2. Limpiar la lista existente
+  lista.innerHTML = "";
+
+  // 3. Iterar sobre el arreglo amigos
+  for (let i = 0; i < amigos.length; i++) {
+    // 4. Crear un elemento <li> para cada amigo
+    const li = document.createElement("li");
+    li.textContent = amigos[i];
+
+    // 5. Agregar el <li> a la lista
+    lista.appendChild(li);
+  }
+}
