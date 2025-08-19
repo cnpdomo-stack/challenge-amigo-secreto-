@@ -1,1 +1,5 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
+let amigos = ["Juan", "María", "Pedro"];
+
+console.log(amigos[0]); // Muestra "Juan"
+console.log(amigos[1]); // Muestra "María"
+console.log(amigos[2]); // Muestra "Pedro"
